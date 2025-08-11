@@ -84,10 +84,10 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: "500+", label: "Active Members", icon: <Users className="w-6 h-6" /> },
-    { number: "25+", label: "Sports Categories", icon: <Trophy className="w-6 h-6" /> },
-    { number: "100+", label: "Tournaments Won", icon: <Award className="w-6 h-6" /> },
-    { number: "15+", label: "Years of Excellence", icon: <Star className="w-6 h-6" /> }
+    { number: "100+", label: "Active Members", icon: <Users className="w-6 h-6" /> },
+    { number: "5+", label: "Sports Categories", icon: <Trophy className="w-6 h-6" /> },
+    { number: "0+", label: "Tournaments Won", icon: <Award className="w-6 h-6" /> },
+    { number: "2.5+", label: "Years of Excellence", icon: <Star className="w-6 h-6" /> }
   ];
 
   return (
