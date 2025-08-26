@@ -1,12 +1,38 @@
 import React, { useState } from 'react';
 
 const images = [
-  '/images/6.jpg',
-  '/images/3.jpg',
-  '/images/4.jpg',
-  '/images/5.jpg',
-  '/images/2.jpg',
-  '/images/image2.jpg',
+  '/images/prize2.jpg',
+  '/images/prize.jpg',
+  '/images/GALLERY1.png',
+  '/images/GALLERY2.png',
+  '/images/GALLERY3.png',
+  '/images/GALLERY4.png',
+  '/images/GALLERY5.png',
+  '/images/GALLERY6.png',
+  '/images/GALLERY7.png',
+  '/images/GALLERY8.jpg',
+  '/images/GALLERY9.jpg',
+  '/images/GALLERY10.jpg',
+  '/images/GALLERY11.jpg',
+  '/images/GALLERY13.jpeg',
+  '/images/GALLERY14.jpeg',
+  '/images/GALLERY15.jpeg',
+  '/images/GALLERY16.jpeg',
+  '/images/GALLERY17.jpeg',
+  '/images/GALLERY18.jpeg',
+  '/images/GALLERY19.jpeg',
+  '/images/GALLERY20.jpeg',
+  '/images/GALLERY21.jpeg',
+  '/images/GALLERY22.jpeg',
+  '/images/GALLERY23.jpeg',
+  '/images/GALLERY24.jpeg',
+  '/images/GALLERY25.jpeg',
+  '/images/GALLERY26.jpeg',
+  '/images/GALLERY27.jpeg',
+  '/images/GALLERY28.jpeg',
+  '/images/GALLERY29.jpeg',
+  '/images/GALLERY31.jpeg',
+ 
 ];
 
 const Gallery = () => {
@@ -14,7 +40,9 @@ const Gallery = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-6">Gallery</h1>
+      <h1 className="text-3xl font-bold text-center mt-12 mb-6 ml-10">Gallery</h1>
+
+
       <p className="text-center text-gray-600 dark:text-gray-300 mb-10">
         Explore moments from our sports society.
       </p>

@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, setCurrentPage, darkMode, 
                 Fierce Falcons
               </h1>
               <p className="text-xs text-gray-500 dark:text-gray-400 font-medium tracking-wide">
-                GTB4CEC Sports Society
+                 Sports Society
               </p>
             </div>
           </div>

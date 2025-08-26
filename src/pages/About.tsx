@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Instagram, MessageCircle, Youtube } from 'lucide-react';
+import { Instagram, MessageCircle, Youtube  } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 function AboutUs() {
   return (
@@ -265,20 +266,27 @@ function AboutUs() {
               </p>
             </div>
 
-            {/* Quick Links */}
+            {/* Quick Links
             <div>
               <h4 className="text-lg font-bold mb-4 text-blue-300">Quick Links</h4>
               <ul className="space-y-2">
-                {['About Us', 'Sports & Clubs', 'Events', 'Hall of Fame'].map((link) => (
-                  <li key={link}>
-                    <button className="text-gray-300 hover:text-white transition-colors">
-                      {link}
-                    </button>
+                {[
+                  { name: "About Us", path: "/about" },
+                  { name: "Sports & Clubs", path: "/sports" },
+                  { name: "Events", path: "/events" },
+                  { name: "Hall of Fame", path: "/hall-of-fame" }
+                ].map((link) => (
+                  <li key={link.name}>
+                    <Link 
+                      to={link.path} 
+                      className="text-gray-300 hover:text-white transition-colors"
+                    >
+                      {link.name}
+                    </Link>
                   </li>
                 ))}
               </ul>
-            </div>
-
+            </div> */}
             {/* Contact Info */}
             <div>
               <h4 className="text-lg font-bold mb-4 text-blue-300">Connect With Us</h4>
@@ -315,9 +323,6 @@ function AboutUs() {
           <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
               © 2025 Fierce Falcons. All rights reserved. | GTB4CEC Sports Society
-            </p>
-            <p className="text-gray-400 text-sm mt-4 md:mt-0">
-              Made with ❤️ for our sports community
             </p>
           </div>
         </div>

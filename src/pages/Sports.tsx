@@ -8,109 +8,131 @@ const Sports = () => {
       name: "Basketball",
       description: "Join our championship-winning basketball team. Regular training sessions and competitive matches with professional coaching.",
       // achievements: "3-time University Champions",
-      image: "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&q=80&w=800",
+      image: "/images/baskt.avif",
       // icon: <Trophy className="w-6 h-6 text-orange-500" />,
-      members: "45+ Active Players",
-      level: "Beginner to Professional"
+      members: "132+ Active Players",
+      Head: "Krrish jain , Nishika",
+      link:"https://chat.whatsapp.com/CJw5VXi7NOpCMfyaVnUiuL"
     },
     {
       name: "Football",
       description: "Experience the thrill of football with state-of-the-art training facilities and expert coaching staff.",
       // achievements: "Regional Tournament Winners 2023",
-      image: "https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&q=80&w=800",
+      image: "/images/football.avif",
       // // icon: <Target className="w-6 h-6 text-green-500" />,
-      members: "60+ Active Players",
-      level: "All Skill Levels"
+      members: "70 Active Players",
+      Head: "Rijual Upadhaya , Paras Singh",
+      link:"https://chat.whatsapp.com/Gq7SrWDjIda55XSJGc1A51"
     },
     {
       name: "Cricket",
       description: "Be part of our prestigious cricket program with professional training and competitive match exposure.",
       // achievements: "Inter-College Cricket Champions",
-      image: "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&q=80&w=800",
+      image: "/images/crick.avif",
       // // icon: <Award className="w-6 h-6 text-blue-500" />,
-      members: "35+ Active Players",
-      level: "Intermediate to Advanced"
+      members: "135+ Active Players",
+      Head: "Auyush Gupta",
+      link:"https://chat.whatsapp.com/CyG8eRfvF4G42TZWZeN66c"
     },
     {
       name: "Athletics",
       description: "Comprehensive athletics program covering track and field events with expert guidance and training.",
       // achievements: "Multiple National Records",
-      image: "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&q=80&w=800",
+      image: "/images/ath.avif",
       // // icon: <Star className="w-6 h-6 text-purple-500" />,
       members: "50+ Athletes",
-      level: "All Levels Welcome"
+      Head: "Himanshu Adhikari,Diksha Giri Basel",
+      link:"https://chat.whatsapp.com/HXjQz6jIXyl8mG4Qcu6kBs "
     },
     {
       name: "Kho-Kho",
       description: "Traditional Indian sport promoting agility, strategy, and teamwork with modern training techniques.",
       // achievements: "State Championship Runners-up",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800",
+      image: "/images/kho-kho.jpg",
       // // icon: <Users className="w-6 h-6 text-red-500" />,
-      members: "25+ Players",
-      level: "Beginner Friendly"
+      members: "42+ Players",
+      Head: "Lakshita Bhatt, Saloni Nauriyal",
+      link:" https://chat.whatsapp.com/CZfvHMolcGYJH7dlJdqQQd"
     },
-    // {
-    //   name: "Kabaddi",
-    //   description: "Ancient sport of strength and strategy, building physical fitness and mental toughness.",
-    //   // achievements: "Regional Champions 2024",
-    //   image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800",
-    //   icon: <Trophy className="w-6 h-6 text-yellow-600" />,
-    //   members: "30+ Warriors",
-    //   level: "All Fitness Levels"
-    // },
+    {
+      name: "Kabaddi",
+      description: "Ancient sport of strength and strategy, building physical fitness and mental toughness.",
+      // achievements: "Regional Champions 2024",
+      image: "/images/kabadi.jpg",
+      icon: <Trophy className="w-6 h-6 text-yellow-600" />,
+      members: "30+ Warriors",
+      Head: "Gitesh Chaudhary",
+      link:"https://chat.whatsapp.com/H7tEzX4iCbv98YPN88uvVP "
+    },
     {
       name: "Badminton",
       description: "Fast-paced racquet sport with professional courts and coaching for singles and doubles play.",
       // achievements: "University Singles Champion",
-      image: "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?auto=format&fit=crop&q=80&w=800",
+      image: "/images/badminton.avif",
       // // icon: <Target className="w-6 h-6 text-pink-500" />,
-      members: "40+ Players",
-      level: "Recreational to Competitive"
+      members: "184+ Players",
+      Head: "Harsh kumar, Annika Chharia",
+      link:" https://chat.whatsapp.com/JrfegceHOCN9Z9GDVNzCP1"
     },
     {
       name: "Chess",
       description: "Strategic mind sport with regular tournaments and coaching from certified chess masters.",
       // achievements: "Inter-College Chess Champions",
-      image: "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?auto=format&fit=crop&q=80&w=800",
+      image: "/images/chess.avif",
       // // icon: <Award className="w-6 h-6 text-indigo-500" />,
-      members: "20+ Players",
-      level: "Beginner to Grandmaster"
+      members: "100+ Players",
+      Head: "Yash Mittal",
+      link:" https://chat.whatsapp.com/JHNpsXxHzaPIzQpIJmPr9z"
     },
     {
       name: "Table Tennis",
       description: "High-speed indoor sport with professional tables and equipment for competitive play.",
       // achievements: "Regional Table Tennis Champions",
-      image: "https://images.unsplash.com/photo-1534158914592-062992fbe900?auto=format&fit=crop&q=80&w=800",
+      image: "/images/tt.avif",
       // // icon: <Star className="w-6 h-6 text-teal-500" />,
       members: "35+ Players",
-      level: "All Skill Levels"
+      Head:"Aditya Saraswat",
+      link:" "
     },
-    // {
-    //   name: "Tennis",
-    //   description: "Classic racquet sport with professional courts and coaching for singles and doubles matches.",
-    //   // achievements: "University Tennis Champions",
-    //   image: "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?auto=format&fit=crop&q=80&w=800",
-    //   icon: <Trophy className="w-6 h-6 text-lime-500" />,
-    //   members: "25+ Players",
-    //   level: "Beginner to Advanced"
-    // },
+    {
+      name: "Volleyball",
+      description: "Classic racquet sport with professional courts and coaching for singles and doubles matches.",
+      // achievements: "University Tennis Champions",
+      image: "/images/volley.avif",
+      icon: <Trophy className="w-6 h-6 text-lime-500" />,
+      members: "25+ Players",
+      Head: " Pushkar Tehlan,Piyush Negi",
+      link:" https://chat.whatsapp.com/DXeXGjA5QhC0QByMhOMslK"
+    },
     {
       name: "Tug of War",
       description: "Team strength sport building camaraderie and physical fitness through competitive pulling.",
       // achievements: "Inter-College Champions 2023",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800",
+      image: "/images/tug.jpg",
       // // icon: <Users className="w-6 h-6 text-orange-600" />,
-      members: "40+ Team Members",
-      level: "Team Sport - All Welcome"
+      members: "29+ Team Members",
+      Head:"Priyansh Chaudhary, Riya ",
+      link:"https://chat.whatsapp.com/DollkcU9LR6K4jQm1wWLDr "
     },
     {
       name: "Powerlifting",
       description: "Strength sport focusing on squat, bench press, and deadlift with professional training and safety.",
       // achievements: "National Powerlifting Medalists",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=800",
+      image: "/images/power.jpg",
+      // // icon: <Award className="w-6 h-6 text-gray-600" />,
+      members: "70+ Lifters",
+      Head:"Garv Malhotra, Sneha Agarwal",
+      link:"https://chat.whatsapp.com/E7xR88VlYucH1ARjrKiwhD "
+    },
+    {
+      name: "Tennis",
+      description: "Come join us for a fun afternoon of tennis! Whether you're a seasoned player or just looking to try something new, this is a great opportunity to meet other college students",
+      // achievements: "National Powerlifting Medalists",
+      image: "/images/tennis.jpg",
       // // icon: <Award className="w-6 h-6 text-gray-600" />,
       members: "20+ Lifters",
-      level: "Intermediate to Elite"
+      Head:" Aaseen Pandey",
+      link:" "
     }
   ];
 
@@ -179,13 +201,15 @@ const Sports = () => {
                     <span className="font-semibold text-gray-900 dark:text-white">{sport.members}</span>
                   </div>
                   <div className="flex items-center justify-between text-sm">
-                    <span className="text-gray-500 dark:text-gray-400">Level:</span>
-                    <span className="font-semibold text-gray-900 dark:text-white">{sport.level}</span>
+                    <span className="text-gray-500 dark:text-gray-400">Head:</span>
+                    <span className="font-semibold text-gray-900 dark:text-white">{sport.Head}</span>
                   </div>
                 </div>
                 
-                <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-2xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center group">
-                  Join {sport.name}
+                <button 
+                  onClick={() => window.open(sport.link, "_blank")}
+                  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-2xl font-bold transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center group">
+                    Join {sport.name}
                   <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>

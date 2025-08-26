@@ -12,6 +12,7 @@ import Membership from './pages/Membership';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem('darkMode');
@@ -41,13 +42,15 @@ function App() {
   }, [darkMode]);
 
   useEffect(() => {
-    // Loading screen timer
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
+  useEffect(() => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage]);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -73,6 +76,7 @@ function App() {
     );
   };
 
+  // Loading screen
   if (isLoading) {
     return (
       <AnimatePresence>
@@ -118,8 +122,11 @@ function App() {
               className="mb-8"
             >
               <div className="w-24 h-24 mx-auto mb-6 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-                <span className="text-3xl font-bold text-white">ansh sexy</span>
-                
+                <img 
+                  src="/images/img.jpg"
+                  alt="Avatar"
+                  className="w-16 h-16 rounded-full object-cover"
+                />
               </div>
             </motion.div>
 
@@ -138,7 +145,7 @@ function App() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-2xl md:text-3xl text-white/90 font-light italic"
             >
-              - GTB4THCEC
+              GTB4CEC
             </motion.p>
 
             {/* Loading animation */}
@@ -172,8 +179,12 @@ function App() {
     );
   }
 
+  // Main App return with scroll container
   return (
-    <div className={`min-h-screen ${darkMode ? 'dark' : ''}`}>
+    <div 
+      ref={containerRef} 
+      className={`min-h-screen ${darkMode ? 'dark' : ''} overflow-y-auto`}
+    >
       <div className="bg-gradient-to-br from-gray-50 via-white to-blue-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 min-h-screen transition-colors duration-300">
         <Navbar 
           currentPage={currentPage} 
@@ -209,16 +220,25 @@ function App() {
                 <div>
                   <h4 className="text-lg font-bold mb-4 text-blue-300">Quick Links</h4>
                   <ul className="space-y-2">
-                    {['About Us', 'Sports & Clubs', 'Events', 'Hall of Fame'].map((link) => (
-                      <li key={link}>
-                        <button className="text-gray-300 hover:text-white transition-colors">
-                          {link}
+                    {[
+                      { name: 'About Us', page: 'about' },
+                      { name: 'Sports & Clubs', page: 'sports' },
+                      { name: 'Events', page: 'events' },
+                      { name: 'Hall of Fame', page: 'hall-of-fame' },
+                      { name: 'Gallery', page: 'gallery' },
+                      { name: 'Contact', page: 'contact' },
+                    ].map((link) => (
+                      <li key={link.page}>
+                        <button
+                          onClick={() => setCurrentPage(link.page)}
+                          className="text-gray-300 hover:text-white transition-colors w-full text-left"
+                        >
+                          {link.name}
                         </button>
                       </li>
                     ))}
                   </ul>
                 </div>
-
                 {/* Contact Info */}
                 <div>
                   <h4 className="text-lg font-bold mb-4 text-blue-300">Connect With Us</h4>
@@ -255,9 +275,6 @@ function App() {
               <div className="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center">
                 <p className="text-gray-400 text-sm">
                   © 2025 Fierce Falcons. All rights reserved. | GTB4CEC Sports Society
-                </p>
-                <p className="text-gray-400 text-sm mt-4 md:mt-0">
-                  Made with ❤️ for our sports community
                 </p>
               </div>
             </div>
