@@ -50,7 +50,7 @@ const Events = () => {
       category: "Traditional Sports",
       status: "ongoing",
       registrationLink: "https://forms.gle/FpB2MH1ZxYdKvKHG7",
-      registrationLink2:"+91 88515 12343",
+      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLScUzPZeaNYCMxniUWh8OKXtGK2qaMMprS4AliRmzSSVOVY-dA/viewform",
       contactPerson: {
         name: "Harsh Kumar, Shashank Dhyani",
         role: "Club Head",
