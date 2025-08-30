@@ -38,23 +38,23 @@ const Events = () => {
   const events: Event[] = [
     {
       id: 1,
-      title: "Badminton tournament",
-      date: "28 August 2025",
+      title: "Power Lifting",
+      date: "3 September 2025",
       time: "2:00 pM - 4:00 PM",
       location: "Guru Harkrishan Public School",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys!",
-      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys.Players Must Bring Their own Racket.Link 1 for boys , link 2 for girls",
+      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys.",
       highlights: ["Trophies", "Attractive Prizes", "Certificates"],
-      image: "/images/bad.jpg",
+      image: "/images/eventpowerlifting.jpg",
       category: "Traditional Sports",
       status: "ongoing",
-      registrationLink: "https://forms.gle/FpB2MH1ZxYdKvKHG7",
-      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLScUzPZeaNYCMxniUWh8OKXtGK2qaMMprS4AliRmzSSVOVY-dA/viewform",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
+      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
       contactPerson: {
-        name: "Harsh Kumar, Shashank Dhyani",
+        name: "Sneha, Garv Malhotra",
         role: "Club Head",
-        phone: "+91 98960 24684,+91 88515 12343 ",
+        phone: "+91 8595568784,+91 9315655865",
         email: ""
       },
       prizes: ["various prizes"],
@@ -70,6 +70,100 @@ const Events = () => {
     },
     {
       id: 2,
+      title: "Kabaddi",
+      date: "2 September 2025",
+      time: "2:00 pM - 4:00 PM",
+      location: "Park Infront of College",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys!",
+      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for All year boys and girls.",
+      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
+      image: "/images/eventkabaddi.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
+      registrationLink2:"https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
+      contactPerson: {
+        name: "Gitesh Chaudhary, Sneha Agarwal",
+        role: "Club Head",
+        phone: "+918448560788,+91 93156 55865",
+        email: ""
+      },
+      prizes: ["various prizes"],
+      rules: [
+        "Each team must have 12 players (9 playing + 3 substitutes)",
+        "Match duration: 2 innings of 9 minutes each",
+        "Teams must register at least 7 days before the tournament",
+        "All players must have valid college ID cards",
+      ],
+      schedule: [
+        
+      ]
+    },{
+      id: 3,
+      title: "Basketball",
+      date: "28 August 2025",
+      time: "2:00 pM - 4:00 PM",
+      location: "Hari Nagar Sports Complex",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcons sports society is organizing Basketball Trials exclusively for first-year boys and girls only!",
+      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys and girls.",
+      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
+      image: "/images/eventbasketball.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
+      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
+      contactPerson: {
+        name: "Krrish Jain, Aryan Singh Rajawat",
+        role: "Club Head",
+        phone: "+91 9871029692,+91 8130571824",
+        email: ""
+      },
+      prizes: ["various prizes"],
+      rules: [
+        "Each team must have 12 players (9 playing + 3 substitutes)",
+        "Match duration: 2 innings of 9 minutes each",
+        "Teams must register at least 7 days before the tournament",
+        "All players must have valid college ID cards",
+      ],
+      schedule: [
+        
+      ]
+    },{
+      id: 4,
+      title: "Tug Of War",
+      date: "3 September 2025",
+      time: "2:00 pM",
+      location: "Ground In Front Of College",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcons sports society is organizing Tug Of Wars Trials exclusively for first-year and Second year boys and Girls only!",
+      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys and girls.",
+      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
+      image: "/images/eventtugofwar.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd-eIhMGmGNANVM9G6mPRhNOrzMYQhuWyxtJ8-Cr4gqCwLJuQ/viewform?fbclid=PAQ0xDSwMf3YJleHRuA2FlbQIxMQABpx6vXNyUL8SOMrTzRtIYfV0Zs8XeLzS8XiqrgWWt2FTk-2AR8TGc_t82eSPL_aem_Qw5uxDLFOp_vDOTLyT_hZg",
+      registrationLink2:"",
+      contactPerson: {
+        name: "Sneha Aggarwal, Riya Sehgal",
+        role: "Club Head",
+        phone: "+919315655865,+91 8178847585  ",
+        email: ""
+      },
+      prizes: ["various prizes"],
+      rules: [
+        "Each team must have 12 players (9 playing + 3 substitutes)",
+        "Match duration: 2 innings of 9 minutes each",
+        "Teams must register at least 7 days before the tournament",
+        "All players must have valid college ID cards",
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 6,
       title: "KHO KHO Tournament",
       date: "30 August 2025",
       time: "9:00 AM - 6:00 PM",
@@ -100,7 +194,7 @@ const Events = () => {
       ]
     },
     {
-      id: 3,
+      id: 7,
       title: "IPU Sports Meet 2025",
       date: "To Be Revealed",
       time: "TBA",
@@ -127,7 +221,7 @@ const Events = () => {
       ]
     },
     {
-      id: 4,
+      id: 8,
       title: "Intra Sports Week 2026",
       date: "To Be Revealed...",
       time: "TBA",
@@ -154,7 +248,7 @@ const Events = () => {
       ]
     },
     {
-      id: 5,
+      id: 9,
       title: "Aahvaan DTU",
       date: "April 11, 2025",
       time: "8:00 AM - 8:00 PM",
@@ -182,7 +276,7 @@ const Events = () => {
       ]
     },
     {
-      id: 6,
+      id: 10,
       title: "Dr. Bharat Ram Inter College Sports Meet (LSR) 2025",
       date: "March 24, 2025",
       time: "9:00 AM - 6:00 PM",
@@ -209,7 +303,7 @@ const Events = () => {
       ]
     },
     {
-      id: 7,
+      id: 11,
       title: "Akhilesh Das Inter Tournament 2025 (Football)",
       date: "March 5-10, 2025",
       time: "Morning & Evening Sessions",
@@ -237,7 +331,7 @@ const Events = () => {
       ]
     },
     {
-      id: 8,
+      id: 12,
       title: "Athleema 2025 (Kho-Kho)",
       date: "April 1-3, 2025",
       time: "8:00 AM - 7:00 PM",
@@ -272,7 +366,7 @@ const Events = () => {
       ]
     },
     {
-      id: 9,
+      id: 13,
       title: "Intra Sports Week 2025",
       date: "February 15-21, 2025",
       time: "",
@@ -293,7 +387,7 @@ const Events = () => {
       prizes: ["Department-wise Trophies", "Individual Championships", "Best Sportsperson Award"]
     },
     {
-      id: 10,
+      id: 14,
       title: "IPU Sports Meet 2024",
       date: "November 10-15, 2024",
       time: "Full Day Events",
@@ -314,7 +408,7 @@ const Events = () => {
       prizes: ["Overall Championship", "Individual Event Medals", "Best College Award"]
     },
     {
-      id: 11,
+      id: 15,
       title: "GTBIT Silver Jubilee 2024",
       date: "January 25-27, 2024",
       time: "Three Day Celebration",
