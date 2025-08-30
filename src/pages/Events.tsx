@@ -16,7 +16,6 @@ interface Event {
   category: string;
   status: 'upcoming' | 'ongoing' | 'completed';
   registrationLink?: string;
-  registrationLink2?: string;
   contactPerson: {
     name: string;
     role: string;
@@ -50,7 +49,6 @@ const Events = () => {
       category: "Traditional Sports",
       status: "ongoing",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
-      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
       contactPerson: {
         name: "Sneha, Garv Malhotra",
         role: "Club Head",
@@ -82,7 +80,6 @@ const Events = () => {
       category: "Traditional Sports",
       status: "ongoing",
       registrationLink: "https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
-      registrationLink2:"https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
       contactPerson: {
         name: "Gitesh Chaudhary, Sneha Agarwal",
         role: "Club Head",
@@ -113,7 +110,6 @@ const Events = () => {
       category: "Traditional Sports",
       status: "ongoing",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
-      registrationLink2:"https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
       contactPerson: {
         name: "Krrish Jain, Aryan Singh Rajawat",
         role: "Club Head",
@@ -144,7 +140,6 @@ const Events = () => {
       category: "Traditional Sports",
       status: "ongoing",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSd-eIhMGmGNANVM9G6mPRhNOrzMYQhuWyxtJ8-Cr4gqCwLJuQ/viewform?fbclid=PAQ0xDSwMf3YJleHRuA2FlbQIxMQABpx6vXNyUL8SOMrTzRtIYfV0Zs8XeLzS8XiqrgWWt2FTk-2AR8TGc_t82eSPL_aem_Qw5uxDLFOp_vDOTLyT_hZg",
-      registrationLink2:"",
       contactPerson: {
         name: "Sneha Aggarwal, Riya Sehgal",
         role: "Club Head",

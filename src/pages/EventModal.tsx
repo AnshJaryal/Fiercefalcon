@@ -15,7 +15,6 @@ interface Event {
   category: string;
   status: 'upcoming' | 'ongoing' | 'completed';
   registrationLink?: string;
-  registrationLink2: string;
   contactPerson: {
     name: string;
     role: string;
@@ -158,18 +157,6 @@ const EventModal: React.FC<EventModalProps> = ({ event, isOpen, onClose }) => {
                 {event.registrationLink && (
                   <a
                     href={event.registrationLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center justify-center transition-colors"
-                  >
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Register Now
-                  </a>
-                  
-                )}
-                {event.registrationLink && (
-                  <a
-                    href={event.registrationLink2}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center justify-center transition-colors"
