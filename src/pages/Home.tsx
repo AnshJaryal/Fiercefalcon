@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Trophy, Calendar, Bell, ChevronLeft, ChevronRight, Star, Users, Award, Target, ArrowRight, Play } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+
 const Home = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -43,10 +44,10 @@ const Home = () => {
 
   const upcomingEvents = [
     {
-      title: "IPU Sports Meet Trials",
-      date: "Coming Soon",
-      description: "Join us for the biggest sporting event of the year featuring competitions across all sports.",
-      image: "/images/ipsports.jpg"
+      title: "Kho-Kho Tournament",
+      date: "6th September",
+      description: "Join us for the biggest sporting event of the year featuring competitions in the game.",
+      image: "/images/kho-kho.jpg"
     },
     {
       title: "IPU Sports Meet 2025",
@@ -63,13 +64,13 @@ const Home = () => {
   ];
 
   const news = [
-    ,
+    
     {
       title: "Main Team Trial Form Out ",
       date: "Live Now",
-      description: "Check the link given",
+      description: "Check Event page to Know more",
       category: "News",
-      link: " "
+      link: ""
     },
     {
       title: "Our kho-kho Boys team wins bronze in IPU Sports Meet 2024",
@@ -80,7 +81,7 @@ const Home = () => {
     },
     {
       title: "Our Athletics club wins 2 silver and bronze ",
-      date: "November 25, 2025",
+      date: "March 24, 2025",
       description: "Congratulations to our Athletic team for their outstanding performance in the Event!",
       category: "Achievement",
       link: " "
@@ -142,7 +143,7 @@ const Home = () => {
                   </button>
                   
                   <a
-                    href="https://www.instagram.com/p/DFF0PPEi4e9/"
+                    href="https://www.instagram.com/reel/DNz5n6iZKHw/?igsh=MTJicTJxdmRlejhiZg%3D%3D"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group bg-white/10 backdrop-blur-sm border border-white/20 text-white px-8 py-4 
@@ -241,18 +242,17 @@ const Home = () => {
                     {item.description}
                   </p>
                 </div>
-                {item.link && item.link.trim() !== "" && (
+                {item.link && (
                   <div className="mt-2 md:mt-0">
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    {/* <button
+                      onClick={() => setCurrentPage(item.link)}
                       className="inline-block px-3 py-2 md:px-4 md:py-2 text-xs md:text-sm font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors"
                     >
                       Read More
-                    </a>
+                    </button> */}
                   </div>
                 )}
+
               </motion.div>
             ))}
           </div>

@@ -11,7 +11,7 @@ const Sports = () => {
       image: "/images/baskt.avif",
       // icon: <Trophy className="w-6 h-6 text-orange-500" />,
       members: "132+ Active Players",
-      Head: "Krrish jain , Nishika",
+      Head: "Krrish jain , Nishika,Aryan Rajawat",
       link:"https://chat.whatsapp.com/CJw5VXi7NOpCMfyaVnUiuL"
     },
     {
@@ -40,7 +40,7 @@ const Sports = () => {
       // achievements: "Multiple National Records",
       image: "/images/ath.avif",
       // // icon: <Star className="w-6 h-6 text-purple-500" />,
-      members: "50+ Athletes",
+      members: "100+ Athletes",
       Head: "Himanshu Adhikari,Diksha Giri Basel",
       link:"https://chat.whatsapp.com/HXjQz6jIXyl8mG4Qcu6kBs "
     },
@@ -50,8 +50,8 @@ const Sports = () => {
       // achievements: "State Championship Runners-up",
       image: "/images/kho-kho.jpg",
       // // icon: <Users className="w-6 h-6 text-red-500" />,
-      members: "42+ Players",
-      Head: "Lakshita Bhatt, Saloni Nauriyal",
+      members: "80+ Players",
+      Head: "Lakshita Bhatt, Saloni Nauriyal,Himanshu Adhikari",
       link:" https://chat.whatsapp.com/CZfvHMolcGYJH7dlJdqQQd"
     },
     {
@@ -60,7 +60,7 @@ const Sports = () => {
       // achievements: "Regional Champions 2024",
       image: "/images/kabadi.jpg",
       icon: <Trophy className="w-6 h-6 text-yellow-600" />,
-      members: "30+ Warriors",
+      members: "60+ Warriors",
       Head: "Gitesh Chaudhary",
       link:"https://chat.whatsapp.com/H7tEzX4iCbv98YPN88uvVP "
     },
@@ -90,7 +90,7 @@ const Sports = () => {
       // achievements: "Regional Table Tennis Champions",
       image: "/images/tt.avif",
       // // icon: <Star className="w-6 h-6 text-teal-500" />,
-      members: "35+ Players",
+      members: "86+ Players",
       Head:"Aditya Saraswat",
       link:" "
     },
@@ -101,7 +101,7 @@ const Sports = () => {
       image: "/images/volley.avif",
       icon: <Trophy className="w-6 h-6 text-lime-500" />,
       members: "25+ Players",
-      Head: " Pushkar Tehlan,Piyush Negi",
+      Head: " Piyush Negi",
       link:" https://chat.whatsapp.com/DXeXGjA5QhC0QByMhOMslK"
     },
     {
@@ -110,7 +110,7 @@ const Sports = () => {
       // achievements: "Inter-College Champions 2023",
       image: "/images/tug.jpg",
       // // icon: <Users className="w-6 h-6 text-orange-600" />,
-      members: "29+ Team Members",
+      members: "70+ Team Members",
       Head:"Priyansh Chaudhary, Riya ",
       link:"https://chat.whatsapp.com/DollkcU9LR6K4jQm1wWLDr "
     },
@@ -120,7 +120,7 @@ const Sports = () => {
       // achievements: "National Powerlifting Medalists",
       image: "/images/power.jpg",
       // // icon: <Award className="w-6 h-6 text-gray-600" />,
-      members: "70+ Lifters",
+      members: "90+ Lifters",
       Head:"Garv Malhotra, Sneha Agarwal",
       link:"https://chat.whatsapp.com/E7xR88VlYucH1ARjrKiwhD "
     },
@@ -130,9 +130,9 @@ const Sports = () => {
       // achievements: "National Powerlifting Medalists",
       image: "/images/tennis.jpg",
       // // icon: <Award className="w-6 h-6 text-gray-600" />,
-      members: "20+ Lifters",
+      members: "20+ members",
       Head:" Aaseen Pandey",
-      link:" "
+      link:"https://chat.whatsapp.com/BQj0rR4GwB17znAhwSJXKS "
     }
   ];
 

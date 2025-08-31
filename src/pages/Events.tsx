@@ -38,7 +38,7 @@ const Events = () => {
     {
       id: 3,
       title: "Basketball",
-      date: "28 August 2025",
+      date: "2 September 2025",
       time: "10:00 AM Onwards ",
       location: "Hari Nagar Sports Complex",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
@@ -50,9 +50,9 @@ const Events = () => {
       status: "ongoing",
       registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
       contactPerson: {
-        name: "Krrish Jain, Aryan Singh Rajawat",
+        name: "Krrish Jain, Aryan Singh Rajawat,Nishika",
         role: "Club Head",
-        phone: "+91 9871029692,+91 8130571824",
+        phone: "+91 9871029692,+91 8130571824,+91 96507 94379",
         email: ""
       },
       prizes: [""],
@@ -179,10 +179,10 @@ const Events = () => {
     },
     {
       id: 6,
-      title: "Voleyball",
+      title: "Volleyball",
       date: "9 September 2025",
-      time: "",
-      location: "Guru Basement of GTBIT Gym ",
+      time: "11:00 pm - 1:00 pm",
+      location: "GTB4CEC Ground  ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Volleyball trials for girls and boys",
       fullDescription: "Welcome to the Volleyball Trials Registration – GTB4CEC This form is to register for the upcoming Volleyball Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -192,9 +192,9 @@ const Events = () => {
       status: "ongoing",
       registrationLink: "",
       contactPerson: {
-        name: "Pushkar Tehlan,Piyush Negi",
+        name: "Pushkar Tehlan,Piyush Negi,Ankit Dubey",
         role: "Club Head",
-        phone: "",
+        phone: "91 96433 22672,91 98686 53366,9315239325",
         email: ""
       },
       prizes: [],
@@ -208,9 +208,9 @@ const Events = () => {
     {
       id: 7,
       title: "Tennis",
-      date: "9 September 2025",
-      time: "10:30 AM onwards",
-      location: "Guru Basement of GTBIT Gym ",
+      date: "To be revealed soon",
+      time: "To be revealed soon",
+      location: "To be revealed soon ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Tennis trials for girls and boys",
       fullDescription: "Welcome to the Tennis Trials Registration – GTB4CEC This form is to register for the upcoming Tennis Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -238,7 +238,7 @@ const Events = () => {
       title: "Table Tennis",
       date: "10 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Basement of GTBIT Gym ",
+      location: "TO Be Announced ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Table Tennis trials for girls and boys",
       fullDescription: "Welcome to the Table Tennis Trials Registration – GTB4CEC This form is to register for the upcoming Table Tennis Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -248,14 +248,14 @@ const Events = () => {
       status: "ongoing",
       registrationLink: "",
       contactPerson: {
-        name: "",
+        name: "Aditya Saraswat,Janshi",
         role: "Club Head",
-        phone: "",
+        phone: "91 81305 06388,87509 63078",
         email: ""
       },
       prizes: [],
       rules: [
-        
+        "Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper sports attire with your own TT racket (if available)"
       ],
       schedule: [
         
@@ -295,7 +295,7 @@ const Events = () => {
       title: "Kho-Kho",
       date: "11 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Basement of GTBIT Gym ",
+      location: "Guru Harkishan Public School ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Kho-kho trials for girls and boys",
       fullDescription: "Welcome to the Kho-Kho Trials Registration – GTB4CEC This form is to register for the upcoming Kho-Kho Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -305,14 +305,14 @@ const Events = () => {
       status: "ongoing",
       registrationLink: "",
       contactPerson: {
-        name: "",
+        name: "Himanshu Adhikari,Lakshita Bhatt,Saloni Nauriyal",
         role: "Club Head",
-        phone: "",
+        phone: "918860043724,918368153056,919667019355 ",
         email: ""
       },
       prizes: [],
       rules: [
-        
+        " Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper."
       ],
       schedule: [
         
@@ -323,7 +323,7 @@ const Events = () => {
       title: "Athletics",
       date: "12 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Basement of GTBIT Gym ",
+      location: "Guru Harkishan Public School ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Athletics trials for girls and boys",
       fullDescription: "Welcome to the Athletics Trials Registration – GTB4CEC This form is to register for the upcoming Athletics Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -333,14 +333,14 @@ const Events = () => {
       status: "ongoing",
       registrationLink: "",
       contactPerson: {
-        name: "",
+        name: "Himanshu Adhikari,Diksha Giri Basel",
         role: "Club Head",
-        phone: "",
+        phone: "918860043724, 6002343611",
         email: ""
       },
       prizes: [],
       rules: [
-        
+        "Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper."
       ],
       schedule: [
         
@@ -471,7 +471,7 @@ const Events = () => {
       highlights: ["25+ colleges", "Multiple sports", "Cultural integration"],
       image: "/images/bharatram.png",
       category: "Inter-College",
-      status: "upcoming",
+      status: "completed",
       contactPerson: {
         name: "",
         role: "",
@@ -498,7 +498,7 @@ const Events = () => {
       highlights: ["16 team tournament", "knockout format", "Live streaming"],
       image: "/images/akhileshdas.png",
       category: "Football",
-      status: "upcoming",
+      status: "completed",
       registrationLink: "",
       contactPerson: {
         name: "",
@@ -526,7 +526,7 @@ const Events = () => {
       highlights: ["12 teams", "Traditional sports focus", "Cultural events"],
       image: "/images/athelema.png",
       category: "Traditional Sports",
-      status: "upcoming",
+      status: "completed",
       contactPerson: {
         name: "",
         role: "",

@@ -24,7 +24,7 @@ function Contact() {
       phone: "+91 88600 43724",
       image: "/images/himanshu.jpg",
       isActive: true,
-      description: "Passionate about cricket and basketball, leading with vision"
+      description: "I am not perfect , but as a leader take ownership of both victories and mistakes"
     },
     {
       name: "Krrish Jain",
@@ -34,7 +34,7 @@ function Contact() {
       phone: "9871029692",
       image:"/images/krrish.jpg",
       isActive: true,
-      description: "Football enthusiast driving excellence in all sports"
+      description: "i dont just guide my team i grow with them"
     },
     // Vice Head
     {
@@ -45,7 +45,7 @@ function Contact() {
       phone: "+91 93156 55865",
       image: "/images/sneha.jpg",
       isActive: true,
-      description: "Coordinating events and managing team activities"
+      description: " i lead with courage , serve with humaility and inspire with actions"
     },
     //general Secretary
     {
@@ -56,7 +56,7 @@ function Contact() {
       phone: "+380630404654",
       image: "/images/bhavesh.jpg",
       isActive: true,
-      description: "Football enthusiast driving excellence in all sports"
+      description: "my vision is not mine alone it belong to every person I lead"
     },
 
     
@@ -81,7 +81,7 @@ function Contact() {
     
     //Prev General Sec
     {
-      name: "Bhavesh Choudhary",
+      name: "Bhavesh Gautam",
       position: "Previous Genral Secretary ",
       duration: "2023-2025",
       image: "/images/gitesh.jpg",
@@ -293,7 +293,7 @@ function Contact() {
               </div>
               <h3 className="font-bold text-lg mb-2">Email Us</h3>
               <p className="text-gray-600 dark:text-gray-300 break-all">
-                fierce.falcons@gtb4cec.edu.in
+                fiercefalconbackup@gmail.com
               </p>
             </div>
             
@@ -303,7 +303,7 @@ function Contact() {
               </div>
               <h3 className="font-bold text-lg mb-2">Call Us</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                +91 11-2234-5678
+                +91 88600 43724
               </p>
             </div>
             
@@ -343,7 +343,7 @@ function Contact() {
                 Join WhatsApp Community
               </button>
               <button
-                onClick={() => window.open('mailto:fierce.falcons@gtb4cec.edu.in')}
+                onClick={() => window.open('mailto:fiercefalconbackup@gmail.com')}
                 className="bg-white/20 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:bg-white/30 transition-all duration-300"
               >
                 Send Email
