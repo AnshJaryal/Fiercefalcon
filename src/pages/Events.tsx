@@ -195,7 +195,7 @@ const Events = () => {
         name: "Pushkar Tehlan,Piyush Negi,Ankit Dubey",
         role: "Club Head",
         phone: "91 96433 22672,91 98686 53366,9315239325",
-        email: ""
+        email: "https://docs.google.com/forms/d/1hoWdVVf9zC1MmvwryJTeN_aB9ykAWMIWLO1xVwH2kN8/viewform?edit_requested=true"
       },
       prizes: [],
       rules: [
@@ -218,7 +218,7 @@ const Events = () => {
       image: "/images/tennis.jpg",
       category: "Traditional Sports",
       status: "ongoing",
-      registrationLink: "",
+      registrationLink: "https://docs.google.com/forms/d/1kcy9HMPLPfrIaQCszDBEGFdI2ga34NPccX2kkoq0oMU/viewform?edit_requested=true",
       contactPerson: {
         name: "",
         role: "Club Head",
@@ -246,7 +246,7 @@ const Events = () => {
       image: "/images/tt.avif",
       category: "Traditional Sports",
       status: "ongoing",
-      registrationLink: "",
+      registrationLink: "https://docs.google.com/forms/d/11MxgKk8g0q_p8js0_nw0XRsHaJJd3fZZ2qZKEvnXpAU/viewform?edit_requested=true",
       contactPerson: {
         name: "Aditya Saraswat,Janshi",
         role: "Club Head",
@@ -293,12 +293,12 @@ const Events = () => {
     {
       id: 10,
       title: "Kho-Kho",
-      date: "11 September 2025",
+      date: "6 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Harkishan Public School ",
+      location: "RKGIT College, Ghaziabad",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "The Fierce Falcon is organizintg Kho-kho trials for girls and boys",
-      fullDescription: "Welcome to the Kho-Kho Trials Registration – GTB4CEC This form is to register for the upcoming Kho-Kho Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      description: "The RKGIT College is organizintg Kho-kho trials for girls and boys",
+      fullDescription: "",
       highlights: [],
       image: "/images/kho-kho.jpg",
       category: "Traditional Sports",
@@ -307,12 +307,20 @@ const Events = () => {
       contactPerson: {
         name: "Himanshu Adhikari,Lakshita Bhatt,Saloni Nauriyal",
         role: "Club Head",
-        phone: "918860043724,918368153056,919667019355 ",
+        phone: "918860043724,918368153056 ",
         email: ""
       },
       prizes: [],
       rules: [
-        " Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper."
+        " Registration Fee:",
+        "• Boys Team – ₹1500",
+        " • Girls Team – ₹1000",
+        " Each team must consist of 12 players only.",
+        "✅ All players must carry their college ID cards.",
+        "✅ Only students from the same college or college group are allowed.",
+        "❌ Outside campus players are strictly prohibited. If found, the entire team will be disqualified immediately.",
+       " ❌ Indisciplined teams will not be allowed to participate.",
+        "⏰ All team members must enter through the gate together before 9:00 AM."
       ],
       schedule: [
         
@@ -323,7 +331,7 @@ const Events = () => {
       title: "Athletics",
       date: "12 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Harkishan Public School ",
+      location: "TO BE REVEALED SOON ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "The Fierce Falcon is organizintg Athletics trials for girls and boys",
       fullDescription: "Welcome to the Athletics Trials Registration – GTB4CEC This form is to register for the upcoming Athletics Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
@@ -331,7 +339,7 @@ const Events = () => {
       image: "/images/athletic.jpg",
       category: "Traditional Sports",
       status: "ongoing",
-      registrationLink: "",
+      registrationLink: "https://docs.google.com/forms/d/1S8-2lrLl7ghm7DjE2kR8c63hom86BdvfVvjVLyZORsM/viewform?edit_requested=true",
       contactPerson: {
         name: "Himanshu Adhikari,Diksha Giri Basel",
         role: "Club Head",
