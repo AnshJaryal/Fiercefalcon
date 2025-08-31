@@ -35,10 +35,10 @@ const HallOfFame = () => {
     {
       id: 1,
       sport: "Athletics",
-      year: "2024",
+      year: "2025",
       achievement: "2 SILVER and a BRONZE medal at Dr. Bharat Ram Inter College Sports Meet(LSR) 2024",
       imageUrl: "/images/medal.jpg",
-      quote: "MEET OUR STAR PERFORMER AT INTRA COLLEGE EVENT",
+      quote: "MEET OUR STAR PERFORMER AT INTER COLLEGE EVENT",
       playername: {
         player1: "Rupesh Singh Rawat (SILVER - Long Jump , BRONZE - Hurdle Race) ",
         player2: "Himanshu Adhikari (SILVER - Hurdle Race )",
@@ -173,7 +173,7 @@ const HallOfFame = () => {
     {
       id: 1,
       sport: "TUG OF WAR",
-      year: "2024",
+      year: "2025",
       achievement: "GTBIT'S 25th Silver Jubilee 2024",
       imageUrl: "/images/tugof.jpg",
       quote: "MEET OUR 2024 TUG OF WAR CHAMPIONS",
@@ -197,7 +197,7 @@ const HallOfFame = () => {
     {
       id: 3,
       sport: "Tug Of War",
-      year: "2024",
+      year: "2025",
       achievement: "Inter College Winner",
       imageUrl: "/images/tugofwar.png",
       quote: "Champions aren't made in gyms. Champions are made from something they have deep inside them.",
@@ -220,7 +220,7 @@ const HallOfFame = () => {
     {
       id: 4,
       sport: "Basketball",
-      year: "2024",
+      year: "2025",
       achievement: "",
       imageUrl: "/images/basketball.png",
       quote: "Leadership is about making others better.",
@@ -231,7 +231,7 @@ const HallOfFame = () => {
     {
       id: 5,
       sport: "Football",
-      year: "2024",
+      year: "2025",
       achievement: "Inter-University Championship MVP",
       imageUrl: "/images/football.png",
       quote: "Talent wins games, but teamwork wins championships.",
@@ -241,7 +241,7 @@ const HallOfFame = () => {
     {
       id: 6,
       sport: "Volleyball",
-      year: "2023",
+      year: "2025",
       achievement: "Best Setter - Inter-College Tournament",
       imageUrl: "/images/volleyball.png",
       quote: "The strength of the team is each individual member.",
@@ -251,7 +251,7 @@ const HallOfFame = () => {
     {
       id: 7,
       sport: "Cricket",
-      year: "2024",
+      year: "2025",
       achievement: "Inter-College Tournament Best Bowler",
       imageUrl: "/images/cricket.png",
       quote: "Cricket is not just a game, it's a way of life.",
@@ -261,7 +261,7 @@ const HallOfFame = () => {
     {
       id: 8,
       sport: "Badminton",
-      year: "2023",
+      year: "2025",
       achievement: "Inter-University Singles Champion",
       imageUrl: "/images/badminton.png",
       quote: "The shuttle is my canvas, and the court is my stage.",
