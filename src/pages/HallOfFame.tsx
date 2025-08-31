@@ -271,7 +271,7 @@ const HallOfFame = () => {
     {
       id: 9,
       sport: "Chess",
-      year: "2023",
+      year: "2025",
       achievement: "College Tournament Winner",
       imageUrl: "/images/chess.png",
       quote: "In chess, as in life, forethought wins.",
@@ -281,7 +281,7 @@ const HallOfFame = () => {
     {
       id: 10,
       sport: "Athletics",
-      year: "2023",
+      year: "2025",
       achievement: "College Sports Person of the Year",
       imageUrl: "/images/running.png",
       quote: "Run when you can, walk when you have to, crawl if you must.",
