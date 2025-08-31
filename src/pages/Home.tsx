@@ -65,14 +65,14 @@ const Home = () => {
   const news = [
     ,
     {
-      title: "Main Team Trail Form Out ",
+      title: "Main Team Trial Form Out ",
       date: "Live Now",
       description: "Check the link given",
       category: "News",
       link: " "
     },
     {
-      title: "Our kho-kho team wins bronze in IPU Sports Meet 2024",
+      title: "Our kho-kho Boys team wins bronze in IPU Sports Meet 2024",
       date: "November 15 ,2024",
       description: "Congratulations to our kho-kho team for their outstanding performance in the Event!",
       category: "Achievement",

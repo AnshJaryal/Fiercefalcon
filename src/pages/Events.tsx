@@ -36,76 +36,15 @@ const Events = () => {
 
   const events: Event[] = [
     {
-      id: 1,
-      title: "Power Lifting",
-      date: "3 September 2025",
-      time: "2:00 pM - 4:00 PM",
-      location: "Guru Harkrishan Public School",
-      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys!",
-      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys.",
-      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
-      image: "/images/eventpowerlifting.jpg",
-      category: "Traditional Sports",
-      status: "ongoing",
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
-      contactPerson: {
-        name: "Sneha, Garv Malhotra",
-        role: "Club Head",
-        phone: "+91 8595568784,+91 9315655865",
-        email: ""
-      },
-      prizes: ["various prizes"],
-      rules: [
-        "Each team must have 12 players (9 playing + 3 substitutes)",
-        "Match duration: 2 innings of 9 minutes each",
-        "Teams must register at least 7 days before the tournament",
-        "All players must have valid college ID cards",
-      ],
-      schedule: [
-        
-      ]
-    },
-    {
-      id: 2,
-      title: "Kabaddi",
-      date: "2 September 2025",
-      time: "2:00 pM - 4:00 PM",
-      location: "Park Infront of College",
-      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys!",
-      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for All year boys and girls.",
-      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
-      image: "/images/eventkabaddi.jpg",
-      category: "Traditional Sports",
-      status: "ongoing",
-      registrationLink: "https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
-      contactPerson: {
-        name: "Gitesh Chaudhary, Sneha Agarwal",
-        role: "Club Head",
-        phone: "+918448560788,+91 93156 55865",
-        email: ""
-      },
-      prizes: ["various prizes"],
-      rules: [
-        "Each team must have 12 players (9 playing + 3 substitutes)",
-        "Match duration: 2 innings of 9 minutes each",
-        "Teams must register at least 7 days before the tournament",
-        "All players must have valid college ID cards",
-      ],
-      schedule: [
-        
-      ]
-    },{
       id: 3,
       title: "Basketball",
       date: "28 August 2025",
-      time: "2:00 pM - 4:00 PM",
+      time: "10:00 AM Onwards ",
       location: "Hari Nagar Sports Complex",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "The Fierce Falcons sports society is organizing Basketball Trials exclusively for first-year boys and girls only!",
-      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys and girls.",
-      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
+      description: "The Fierce Falcons sports society is organizing Basketball Trials  for all boys and girls ",
+      fullDescription: "Welcome to the Basketball  Trials Registration – GTB4CEC This form is to register for the upcoming Basketball Trials for both Boys and Girls (1st Year Only) . Please fill in the correct details to confirm your participation.  ",
+      highlights: [],
       image: "/images/eventbasketball.jpg",
       category: "Traditional Sports",
       status: "ongoing",
@@ -116,26 +55,54 @@ const Events = () => {
         phone: "+91 9871029692,+91 8130571824",
         email: ""
       },
-      prizes: ["various prizes"],
+      prizes: [""],
       rules: [
-        "Each team must have 12 players (9 playing + 3 substitutes)",
-        "Match duration: 2 innings of 9 minutes each",
-        "Teams must register at least 7 days before the tournament",
-        "All players must have valid college ID cards",
+        "Eligibility: Boys and Girls : 1st Year only ",
+        "Equipment: Players must bring their own shoes and be in proper kit.",
       ],
       schedule: [
         
       ]
-    },{
-      id: 4,
+    },
+    {
+      id: 2,
+      title: "Power Lifting",
+      date: "3 September 2025",
+      time: "10:30 AM onwards",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "Welcome to the Powerlifting  Trials Registration – GTB4CEC",
+      fullDescription: "Welcome to the Powerlifting Trials Registration – GTB4CEC This form is to register for the upcoming Powerlifting Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/eventpowerlifting.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
+      contactPerson: {
+        name: "Sneha, Garv Malhotra",
+        role: "Club Head",
+        phone: "+91 8595568784,+91 9315655865",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        "Eligibility: Boys and Girls (All Years)",
+        "Equipment: Participants must bring their own gym attire and lifting belt (if required)",
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 3,
       title: "Tug Of War",
       date: "3 September 2025",
       time: "2:00 pM",
       location: "Ground In Front Of College",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "The Fierce Falcons sports society is organizing Tug Of Wars Trials exclusively for first-year and Second year boys and Girls only!",
-      fullDescription: "The Fierce Falcons sports society is organizing Badminton Trials exclusively for first-year boys and girls.",
-      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
+      description: "The Fierce Falcons sports society is organizing Tug Of Wars Trials for all boys and Girls ",
+      fullDescription: "The Fierce Falcons sports society is organizing Tug of war Trials  for all boys and girls.",
+      highlights: [],
       image: "/images/eventtugofwar.jpg",
       category: "Traditional Sports",
       status: "ongoing",
@@ -146,12 +113,65 @@ const Events = () => {
         phone: "+919315655865,+91 8178847585  ",
         email: ""
       },
-      prizes: ["various prizes"],
+      prizes: [],
       rules: [
-        "Each team must have 12 players (9 playing + 3 substitutes)",
-        "Match duration: 2 innings of 9 minutes each",
-        "Teams must register at least 7 days before the tournament",
-        "All players must have valid college ID cards",
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 4,
+      title: "Football",
+      date: "8 September 2025",
+      time: "2:00 PM",
+      location: " Guru Harkishan Public School (Maps link will be shared on match day)  ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "Fierce Falcon is organizing Football trials for first year boys and girls",
+      fullDescription: "Welcome to the Football Trials Registration – GTB4CEC This form is to register for the upcoming Football Trials for both firt year Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/football.avif",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/13kRLsyLu-7gn5c7rhLscWxiDnN0s9ZxlGKQA6nBmBTs/edit",
+      contactPerson: {
+        name: "Rijul Upadhaya,Paras Singh",
+        role: "Club Head",
+        phone: "+91 7838908363,+918810455921",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        "Eligibility: Men (1st Year only) and Women (all years).",
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 5,
+      title: "Yoga",
+      date: "8 September 2025",
+      time: "10:00 AM - 1:00 PM",
+      location: "R1 MMS BLOCK ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "Welcome to the Yoga Registration – GTB4CEC",
+      fullDescription: "The Fierce Falcons sports society is organizing Yoga Trials  for all boys and girls.",
+      highlights: [],
+      image: "/images/yoga.avif",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/1Dn3VEoz29Fkp_q971kPcn1-RlhuNDsIKeMq7THKLNOI/viewform?edit_requested=true",
+      contactPerson: {
+        name: "Bhavika  Paul,Himanshu Adhikari",
+        role: "Club Head,Club President",
+        phone: "+91 9999604946,918860043724",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+       " Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper attire with yoga mat (if available).",
       ],
       schedule: [
         
@@ -159,6 +179,175 @@ const Events = () => {
     },
     {
       id: 6,
+      title: "Voleyball",
+      date: "9 September 2025",
+      time: "",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcon is organizintg Volleyball trials for girls and boys",
+      fullDescription: "Welcome to the Volleyball Trials Registration – GTB4CEC This form is to register for the upcoming Volleyball Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/volley.avif",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "",
+      contactPerson: {
+        name: "Pushkar Tehlan,Piyush Negi",
+        role: "Club Head",
+        phone: "",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 7,
+      title: "Tennis",
+      date: "9 September 2025",
+      time: "10:30 AM onwards",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcon is organizintg Tennis trials for girls and boys",
+      fullDescription: "Welcome to the Tennis Trials Registration – GTB4CEC This form is to register for the upcoming Tennis Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/tennis.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "",
+      contactPerson: {
+        name: "",
+        role: "Club Head",
+        phone: "",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 8,
+      title: "Table Tennis",
+      date: "10 September 2025",
+      time: "10:30 AM onwards",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcon is organizintg Table Tennis trials for girls and boys",
+      fullDescription: "Welcome to the Table Tennis Trials Registration – GTB4CEC This form is to register for the upcoming Table Tennis Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/tt.avif",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "",
+      contactPerson: {
+        name: "",
+        role: "Club Head",
+        phone: "",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 9,
+      title: "Kabaddi",
+      date: "10 September 2025",
+      time: "2:00 PM",
+      location: "Park Infront of College",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcons sports society is organizing Kabadi Trials for all girls and boys!",
+      fullDescription: "This form is to register for the upcoming Kabaddi Trials 2025. Please fill in the correct details to confirm your participation.  ",
+      highlights: [],
+      image: "/images/eventkabaddi.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/13dtjprGvPozqfxV8ZFQTyBIjLUyiNySI9oyBrev0k3c/edit",
+      contactPerson: {
+        name: "Gitesh Chaudhary, Sneha Agarwal",
+        role: "Club Head",
+        phone: "+918448560788,+91 93156 55865",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        "Eligibility: All Year Students (Boys & Girls)",
+       " Weight Criteria: Participants must weigh below 80–85 kg"
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 10,
+      title: "Kho-Kho",
+      date: "11 September 2025",
+      time: "10:30 AM onwards",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcon is organizintg Kho-kho trials for girls and boys",
+      fullDescription: "Welcome to the Kho-Kho Trials Registration – GTB4CEC This form is to register for the upcoming Kho-Kho Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/kho-kho.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "",
+      contactPerson: {
+        name: "",
+        role: "Club Head",
+        phone: "",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 11,
+      title: "Athletics",
+      date: "12 September 2025",
+      time: "10:30 AM onwards",
+      location: "Guru Basement of GTBIT Gym ",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcon is organizintg Athletics trials for girls and boys",
+      fullDescription: "Welcome to the Athletics Trials Registration – GTB4CEC This form is to register for the upcoming Athletics Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
+      highlights: [],
+      image: "/images/athletic.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "",
+      contactPerson: {
+        name: "",
+        role: "Club Head",
+        phone: "",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id:12,
       title: "KHO KHO Tournament",
       date: "30 August 2025",
       time: "9:00 AM - 6:00 PM",
@@ -189,7 +378,7 @@ const Events = () => {
       ]
     },
     {
-      id: 7,
+      id: 13,
       title: "IPU Sports Meet 2025",
       date: "To Be Revealed",
       time: "TBA",
@@ -216,7 +405,7 @@ const Events = () => {
       ]
     },
     {
-      id: 8,
+      id: 14,
       title: "Intra Sports Week 2026",
       date: "To Be Revealed...",
       time: "TBA",
@@ -243,7 +432,7 @@ const Events = () => {
       ]
     },
     {
-      id: 9,
+      id: 15,
       title: "Aahvaan DTU",
       date: "April 11, 2025",
       time: "8:00 AM - 8:00 PM",
@@ -271,7 +460,7 @@ const Events = () => {
       ]
     },
     {
-      id: 10,
+      id: 16,
       title: "Dr. Bharat Ram Inter College Sports Meet (LSR) 2025",
       date: "March 24, 2025",
       time: "9:00 AM - 6:00 PM",
@@ -298,7 +487,7 @@ const Events = () => {
       ]
     },
     {
-      id: 11,
+      id: 17,
       title: "Akhilesh Das Inter Tournament 2025 (Football)",
       date: "March 5-10, 2025",
       time: "Morning & Evening Sessions",
@@ -326,7 +515,7 @@ const Events = () => {
       ]
     },
     {
-      id: 12,
+      id: 18,
       title: "Athleema 2025 (Kho-Kho)",
       date: "April 1-3, 2025",
       time: "8:00 AM - 7:00 PM",
@@ -361,7 +550,7 @@ const Events = () => {
       ]
     },
     {
-      id: 13,
+      id: 19,
       title: "Intra Sports Week 2025",
       date: "February 15-21, 2025",
       time: "",
@@ -382,7 +571,7 @@ const Events = () => {
       prizes: ["Department-wise Trophies", "Individual Championships", "Best Sportsperson Award"]
     },
     {
-      id: 14,
+      id: 20,
       title: "IPU Sports Meet 2024",
       date: "November 10-15, 2024",
       time: "Full Day Events",
@@ -403,7 +592,7 @@ const Events = () => {
       prizes: ["Overall Championship", "Individual Event Medals", "Best College Award"]
     },
     {
-      id: 15,
+      id: 21,
       title: "GTBIT Silver Jubilee 2024",
       date: "January 25-27, 2024",
       time: "Three Day Celebration",

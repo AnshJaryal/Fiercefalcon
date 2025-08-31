@@ -97,7 +97,7 @@ function Contact() {
     // email: "dr.rajesh.verma@gtb4cec.edu.in",
     // phone: "+91 11-2234-5678",
     image: "/images/yogesh.jpg",
-    experience: "2+ years in sports administration"
+    experience: ""
   };
 
   const getPositionIcon = (position: string) => {

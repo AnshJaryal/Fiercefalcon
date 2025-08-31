@@ -49,7 +49,7 @@ const EventModal: React.FC<EventModalProps> = ({ event, isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto">
-      <div className="flex min-h-full items-center justify-center p-4">
+      <div className="flex min-h-full items-start justify-center p-4 mt-10">
         <div className="w-full max-w-4xl">
         <div 
           className="fixed inset-0 bg-black bg-opacity-50 transition-opacity"
