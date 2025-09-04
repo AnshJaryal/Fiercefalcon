@@ -72,7 +72,7 @@ function Contact() {
     //previous vice president
     {
       name: "Navneet Singh",
-      position: "Previous Vice President",
+      position: "Previous  President",
       duration: "2023-2025",
       image: "/images/nav.jpg",
       isActive: false,
@@ -82,7 +82,7 @@ function Contact() {
     //Prev General Sec
     {
       name: "Bhavesh Gautam",
-      position: "Previous Genral Secretary ",
+      position: "Previous General Secretary ",
       duration: "2023-2025",
       image: "/images/gitesh.jpg",
       isActive: false,

@@ -21,7 +21,7 @@ const Sports = () => {
       image: "/images/football.avif",
       // // icon: <Target className="w-6 h-6 text-green-500" />,
       members: "70 Active Players",
-      Head: "Rijual Upadhaya , Paras Singh",
+      Head: "Rijul Upadhaya , Paras Singh",
       link:"https://chat.whatsapp.com/Gq7SrWDjIda55XSJGc1A51"
     },
     {
@@ -31,7 +31,7 @@ const Sports = () => {
       image: "/images/crick.avif",
       // // icon: <Award className="w-6 h-6 text-blue-500" />,
       members: "135+ Active Players",
-      Head: "Auyush Gupta",
+      Head: "Ayush Gupta",
       link:"https://chat.whatsapp.com/CyG8eRfvF4G42TZWZeN66c"
     },
     {

@@ -36,7 +36,36 @@ const Events = () => {
 
   const events: Event[] = [
     {
-      id: 3,
+      id: 1,
+      title: "cricket",
+      date: "TO BE REVEALED SOON",
+      time: "TO BE REVEALED SOON ",
+      location: "Hari Nagar Sports Complex",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "The Fierce Falcons sports society is organizing Cricket Trials  for all FIRST YEAR boys and girls ON:LY",
+      fullDescription: "Welcome to the Cricket  Trials Registration – GTB4CEC This form is to register for the upcoming Cricket Trials for both Boys and Girls (1st Year Only) . Please fill in the correct details to confirm your participation.  ",
+      highlights: [],
+      image: "/images/crick.avif",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/15445E0tR4_jaXG1qc-QL29j-uCuaL49TdmkwoEgPoZc/viewform?edit_requested=true",
+      contactPerson: {
+        name: "Ayush Gupta,Dhruv Rajput ,Ankur Sachdeva",
+        role: "Club Head",
+        phone: " 852759274,91 8287500959, 8744837414",
+        email: ""
+      },
+      prizes: [""],
+      rules: [
+           " Eligibility: Men (1st Year only) and Women (all years)",
+      "  Equipment: All matches and trials will be conducted using a Leather Ball, and players must carry their own cricket kit"
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 2,
       title: "Basketball",
       date: "2 September 2025",
       time: "10:00 AM Onwards ",
@@ -47,8 +76,8 @@ const Events = () => {
       highlights: [],
       image: "/images/eventbasketball.jpg",
       category: "Traditional Sports",
-      status: "ongoing",
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
+      status: "completed",
+      registrationLink: "",//"//docs.google.com/forms/d/e/1FAIpQLSeXby1i3IEAkQ_Bwghwhhdta_wWkqOkW8QgPV115EB-zymLuw/viewform?fbclid=PAQ0xDSwMf3W5leHRuA2FlbQIxMQABpwdVwkOE2EuDYUUad9Onh7ImjFZZHnGI2OvBMHtpeA1weRqpCBSMbAHZ-U8c_aem_r0Kjj4GrsSMO3NqI_0wNEg",
       contactPerson: {
         name: "Krrish Jain, Aryan Singh Rajawat,Nishika",
         role: "Club Head",
@@ -65,19 +94,19 @@ const Events = () => {
       ]
     },
     {
-      id: 2,
+      id: 3,
       title: "Power Lifting",
       date: "3 September 2025",
       time: "10:30 AM onwards",
-      location: "Guru Basement of GTBIT Gym ",
+      location: "Basement of GTBIT Gym ",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
       description: "Welcome to the Powerlifting  Trials Registration – GTB4CEC",
       fullDescription: "Welcome to the Powerlifting Trials Registration – GTB4CEC This form is to register for the upcoming Powerlifting Trials for both Boys and Girls. Please fill in the correct details to confirm your participation",
       highlights: [],
       image: "/images/eventpowerlifting.jpg",
       category: "Traditional Sports",
-      status: "ongoing",
-      registrationLink: "https://docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
+      status: "completed",
+      registrationLink: "",//docs.google.com/forms/d/e/1FAIpQLSffIvGh-VZTSW18k_0RrgiL3C9YgssMes5jLoAijBKx2DluHA/viewform?usp=sharing&ouid=111369235058581072528",
       contactPerson: {
         name: "Sneha, Garv Malhotra",
         role: "Club Head",
@@ -94,7 +123,7 @@ const Events = () => {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Tug Of War",
       date: "3 September 2025",
       time: "2:00 pM",
@@ -122,7 +151,7 @@ const Events = () => {
       ]
     },
     {
-      id: 4,
+      id: 5,
       title: "Football",
       date: "8 September 2025",
       time: "2:00 PM",
@@ -150,7 +179,7 @@ const Events = () => {
       ]
     },
     {
-      id: 5,
+      id: 6,
       title: "Yoga",
       date: "8 September 2025",
       time: "10:00 AM - 1:00 PM",
@@ -178,7 +207,7 @@ const Events = () => {
       ]
     },
     {
-      id: 6,
+      id: 7,
       title: "Volleyball",
       date: "9 September 2025",
       time: "11:00 pm - 1:00 pm",
@@ -190,12 +219,12 @@ const Events = () => {
       image: "/images/volley.avif",
       category: "Traditional Sports",
       status: "ongoing",
-      registrationLink: "",
+      registrationLink: "https://docs.google.com/forms/d/1hoWdVVf9zC1MmvwryJTeN_aB9ykAWMIWLO1xVwH2kN8/viewform?edit_requested=true",
       contactPerson: {
         name: "Pushkar Tehlan,Piyush Negi,Ankit Dubey",
         role: "Club Head",
         phone: "91 96433 22672,91 98686 53366,9315239325",
-        email: "https://docs.google.com/forms/d/1hoWdVVf9zC1MmvwryJTeN_aB9ykAWMIWLO1xVwH2kN8/viewform?edit_requested=true"
+        email: ""
       },
       prizes: [],
       rules: [
@@ -206,7 +235,7 @@ const Events = () => {
       ]
     },
     {
-      id: 7,
+      id: 8,
       title: "Tennis",
       date: "To be revealed soon",
       time: "To be revealed soon",
@@ -234,7 +263,7 @@ const Events = () => {
       ]
     },
     {
-      id: 8,
+      id: 9,
       title: "Table Tennis",
       date: "10 September 2025",
       time: "10:30 AM onwards",
@@ -262,7 +291,7 @@ const Events = () => {
       ]
     },
     {
-      id: 9,
+      id: 10,
       title: "Kabaddi",
       date: "10 September 2025",
       time: "2:00 PM",
@@ -291,7 +320,35 @@ const Events = () => {
       ]
     },
     {
-      id: 10,
+      id: 11,
+      title: "Kho-Kho Trials",
+      date: "11 September 2025",
+      time: "10:00 AM onwards",
+      location: "Guru Harkishan Public School",
+      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
+      description: "register for the upcoming KHO-KHO Trials 2025 for both Boys & Girls. ",
+      fullDescription: "register for the upcoming KHO-KHO Trials 2025 for both Boys & Girls. ",
+      highlights: [],
+      image: "/images/kho-kho.jpg",
+      category: "Traditional Sports",
+      status: "ongoing",
+      registrationLink: "https://docs.google.com/forms/d/1__A8AcqpRmVQgwKD0pThNJzgOQY8ryhqwLt6mW6wcGc/viewform?edit_requested=true",
+      contactPerson: {
+        name: "Himanshu Adhikari,Lakshita Bhatt,Saloni Nauriyal",
+        role: "Club Head",
+        phone: "918860043724,918368153056 ",
+        email: ""
+      },
+      prizes: [],
+      rules: [
+        "Selection will be based purely on skill and performance in the trials. Past experience  is collected only for record purposes. All players must report to the venue on time in proper."
+      ],
+      schedule: [
+        
+      ]
+    },
+    {
+      id: 12,
       title: "Kho-Kho",
       date: "6 September 2025",
       time: "10:30 AM onwards",
@@ -327,7 +384,7 @@ const Events = () => {
       ]
     },
     {
-      id: 11,
+      id: 13,
       title: "Athletics",
       date: "12 September 2025",
       time: "10:30 AM onwards",
@@ -355,38 +412,7 @@ const Events = () => {
       ]
     },
     {
-      id:12,
-      title: "KHO KHO Tournament",
-      date: "30 August 2025",
-      time: "9:00 AM - 6:00 PM",
-      location: "Main Sports Ground",
-      icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      description: "This game is not about how fast you run, but how cleverly you tag",
-      fullDescription: "The KHO KHO Tournament is a prestigious inter-college competition that celebrates one of India's most traditional and strategic sports. This tournament brings together the finest teams from across the region to compete in a sport that requires quick thinking, agility, and perfect coordination. Kho Kho is not just about speed; it's about strategy, teamwork, and the ability to outmaneuver your opponents through clever positioning and split-second decision making.",
-      highlights: ["Trophies", "Attractive Prizes", "Certificates"],
-      image: "/images/Untitled.jpg",
-      category: "Traditional Sports",
-      status: "upcoming",
-      registrationLink: "",
-      contactPerson: {
-        name: "",
-        role: "",
-        phone: "",
-        email: ""
-      },
-      prizes: ["various prizes"],
-      rules: [
-        "Each team must have 12 players (9 playing + 3 substitutes)",
-        "Match duration: 2 innings of 9 minutes each",
-        "Teams must register at least 7 days before the tournament",
-        "All players must have valid college ID cards",
-      ],
-      schedule: [
-        
-      ]
-    },
-    {
-      id: 13,
+      id: 14,
       title: "IPU Sports Meet 2025",
       date: "To Be Revealed",
       time: "TBA",
@@ -413,7 +439,7 @@ const Events = () => {
       ]
     },
     {
-      id: 14,
+      id: 15,
       title: "Intra Sports Week 2026",
       date: "To Be Revealed...",
       time: "TBA",
@@ -440,7 +466,7 @@ const Events = () => {
       ]
     },
     {
-      id: 15,
+      id: 16,
       title: "Aahvaan DTU",
       date: "April 11, 2025",
       time: "8:00 AM - 8:00 PM",
@@ -468,7 +494,7 @@ const Events = () => {
       ]
     },
     {
-      id: 16,
+      id: 17,
       title: "Dr. Bharat Ram Inter College Sports Meet (LSR) 2025",
       date: "March 24, 2025",
       time: "9:00 AM - 6:00 PM",
@@ -495,7 +521,7 @@ const Events = () => {
       ]
     },
     {
-      id: 17,
+      id: 18,
       title: "Akhilesh Das Inter Tournament 2025 (Football)",
       date: "March 5-10, 2025",
       time: "Morning & Evening Sessions",
@@ -523,7 +549,7 @@ const Events = () => {
       ]
     },
     {
-      id: 18,
+      id: 19,
       title: "Athleema 2025 (Kho-Kho)",
       date: "April 1-3, 2025",
       time: "8:00 AM - 7:00 PM",
@@ -558,7 +584,7 @@ const Events = () => {
       ]
     },
     {
-      id: 19,
+      id: 20,
       title: "Intra Sports Week 2025",
       date: "February 15-21, 2025",
       time: "",
@@ -579,7 +605,7 @@ const Events = () => {
       prizes: ["Department-wise Trophies", "Individual Championships", "Best Sportsperson Award"]
     },
     {
-      id: 20,
+      id: 21,
       title: "IPU Sports Meet 2024",
       date: "November 10-15, 2024",
       time: "Full Day Events",
@@ -600,7 +626,7 @@ const Events = () => {
       prizes: ["Overall Championship", "Individual Event Medals", "Best College Award"]
     },
     {
-      id: 21,
+      id: 22,
       title: "GTBIT Silver Jubilee 2024",
       date: "January 25-27, 2024",
       time: "Three Day Celebration",

@@ -49,7 +49,7 @@ const HallOfFame = () => {
       id: 1,
       sport: "KHO-KHO BOYS",
       year: "2024",
-      achievement: "IPU SPORT MEET KHO-KHO CHAMPION 2024",
+      achievement: "IPU SPORT MEET KHO-KHO BRONZE MEDALIST 2024",
       imageUrl: "/images/kho.jpeg",
       quote: "Strong alone, unstoppable together – that’s the spirit of champions.",
       playername: {
